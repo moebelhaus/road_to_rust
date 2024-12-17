@@ -35,6 +35,7 @@ fn play_x_games(x: i64) {
     }
 }
 
+
 fn play_one_game(games_played: &Vec<HashMap<String, Game>>) {
 
     let mut rng = rand::thread_rng();
