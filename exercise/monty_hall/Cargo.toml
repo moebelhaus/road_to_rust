@@ -1,0 +1,12 @@
+[package]
+name = "monty_hall"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev]
+opt-level = 0
+debug = true
+split-debuginfo = '...' # Optional, depending on your setup
+
+[dependencies]
+rand = "0.8.5"
